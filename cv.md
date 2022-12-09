@@ -21,9 +21,9 @@
 - a good knowledge of Quality Assurance methodologies, software development and testing lifecycle;
 - an experience in manual testing of web applications;
 - basic knowledge of SQL;
--JIRA and Confluence, You Track, Qase;
+- JIRA and Confluence, You Track, Qase;
 - Terminal ( basic commands ) - cd, pwd, mkdir, rm, mv, vim; - Git,Git Bash;
-- Postman, API testing
+- Postman, API testing.
 
 ## Work Experience:
 
@@ -31,7 +31,7 @@ InnoTech Solutions LLC - QA Engineer ( december 2021 - july 2022 )
 
 - Quality control of developed products;
 - Identification and analysis of errors and problems that contribute to users when working with software products;
-- Development of test scripts; 
+- Development of test scripts;
 - Documenting found defects.
 
 ## Education:
@@ -41,7 +41,7 @@ Faculty of Russian and Belarusian Philology ( 2011 - 2015 )
 - IT Academy Stormnet " QA Engineer " ( 2020 )
 
 ## Languages:
-- Italian - Intermediate 
+- Italian - Intermediate
 
 - English - Basic
 
