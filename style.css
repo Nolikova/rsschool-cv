@@ -1,0 +1,146 @@
+:root {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(169, 169, 169);
+}
+main {
+    display: flex;
+    max-width: 900px;
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:any-link:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px #cccccc;
+}
+h1 {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.header {
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+}
+a:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style-type: circle;
+}
+.heading {
+    color:blueviolet
+}
+.photo {
+    width: 100%;
+}
+.aside {
+    width: 35%;
+    background-color:#a4b8c4;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section {
+    width: 65%;
+    background-color: #e9eff0;
+    padding: 15px;
+}
+.logo {
+    width: 100px;
+}
+.logo-link:hover svg path.logo--hover {
+  fill: #fcfafa;
+}
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.img-box {
+    position: relative;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.aside-list {
+   padding-left: 5px;
+   font-size: 13px;
+}
+.mygithub:hover svg path {
+    fill: #fcfafa;  
+}
+.code {
+    display: block;
+    overflow-x: scroll;
+    background-color: rgb(27, 32, 80);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+.code-line {
+    display: block;
+}
+.code-line--indent {
+    padding-left: 16px;
+}
+.nav-link {
+    list-style-type: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ .mygithub {
+     display:inline-block;
+     padding: 12px;
+ }
+ .logo-link {
+    display:inline-block;
+    padding: 12px;
+ }
+ .date {
+     display: inline-block;
+     padding: 12px;
+ }
+
+ .violet {
+     color: rgb(255, 134, 255);
+ }
+ .yellow {
+     color: yellow;
+ }
+ .red {
+     color: rgb(224, 84, 3);
+ }
+ .green {
+     color: rgb(132, 200, 132);
+ }
+ .grey {
+     color: grey;
+ }
+ 
+@media (max-width: 765px) {
+    .nav-list {
+        font-size: 12px;
+        justify-content: unset;
+    }
+}
